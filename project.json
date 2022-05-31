@@ -1,0 +1,83 @@
+{
+  "name": "Exception_handling",
+  "description": "Blank Process",
+  "main": "globalExp.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.Mail.Activities": "[1.15.1]",
+    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.UIAutomation.Activities": "[22.4.4]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.1.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "exceptionHandlerWorkflow": "GlobalHandler.xaml",
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "9a36e0ec-3bba-40c4-a6bb-b4bf640fc88d",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Throw_REthrow.xaml",
+      "uniqueId": "3a850826-89fd-4b62-ba07-fd4e1c9071bb",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "RetryScope_exmp.xaml",
+      "uniqueId": "bd42f898-cc28-4cc4-8e3e-b5625bcfdd45",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "example.xaml",
+      "uniqueId": "e8cf2bbc-ce8b-4d3d-9648-91c9af91bebb",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "globalExp.xaml",
+      "uniqueId": "9290afac-1eb8-47ce-a299-25ce4735c72a",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
